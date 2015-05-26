@@ -22,5 +22,9 @@ To distinguish whether "Environment.getExternalStorageDirectory()" actually retu
 This class I modified is based on [Vitaliy Polchuk's](http://stackoverflow.com/users/900026/vitaliy-polchuk)
 work with modification from [Doctoror Drive](https://github.com/Doctoror)
 
+My changes:
+- Added support for API 10 and lower (pre-Android 3.0)
+- Fixed the bug that prevented it from returning all mounted storage other than the primary "external storage"
+
 ### License
 See [License](/LICENSE)
